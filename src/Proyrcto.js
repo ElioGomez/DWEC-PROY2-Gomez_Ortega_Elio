@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
     const Proyecto = ()=>(   
         <div>
         <h2>Proyectos realizados</h2>

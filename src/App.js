@@ -6,17 +6,17 @@ import Footer from './Footer.js';
 import Imagen from './Imagen.js';
 import Proyecto from './Proyrcto.js';
 import Recuperacion from './Recuperacion.js';
-import Perfil from './img/Perfil.jpg'
+import Calculadora from './Calculadora.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = ()=> (
-<div>
+<div className='Porfolio'>
   <Menu />
-  <img src={Perfil} width="60px" ></img>
   <Prueba /> 
   <Estudios />
   <Proyecto />
+  <Calculadora />
   <Imagen />
   <Recuperacion />
   <Footer />
