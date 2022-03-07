@@ -4,9 +4,9 @@ import Estudios from './Estudios.js';
 import Menu from './Menu.js';
 import Footer from './Footer.js';
 import Imagen from './Imagen.js';
-import Proyecto from './Proyrcto.js';
-import Recuperacion from './Recuperacion.js';
-import Calculadora from './Calculadora.js';
+import Proyecto from './Proyecto.js';
+import Pokedex from './pokedex.js';
+import CV from './CV.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,9 +16,9 @@ const App = ()=> (
   <Prueba /> 
   <Estudios />
   <Proyecto />
-  <Calculadora />
+  <Pokedex />
   <Imagen />
-  <Recuperacion />
+  <CV />
   <Footer />
 </div>  
 )

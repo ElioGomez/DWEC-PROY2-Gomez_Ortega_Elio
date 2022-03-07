@@ -11,25 +11,21 @@ import React from 'react';
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Sobre mi <span class="sr-only"></span></a>
+        <a class="nav-link" href="#SM">Sobre mi <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Estudios</a>
+        <a class="nav-link" href="#Estudios">Estudios</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Proyectos</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">Calculadora</a>
+        <a class="nav-link" href="#Proyectos">Proyectos</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Imagenes Random</a>
+        <a class="nav-link" href="#Pokedex">Pokedex</a>
       </li>
-      
+
       <li class="nav-item">
-        <a class="nav-link" href="#">Recuperacion</a>
+        <a class="nav-link" href="#ImagenR">Imagenes Random</a>
       </li>
 
       

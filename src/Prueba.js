@@ -1,10 +1,11 @@
 import React from 'react';
-    
+import './App.css';
     const Prueba = ()=>(     
-      <div>
+      <div id='SM' >
       <h1>
           Elio José Gómez Ortega
       </h1>
+<div className='Sobre'>
       <h2>
           Sobre mi
       </h2>
@@ -18,6 +19,8 @@ import React from 'react';
         favoritos es pasar tiempos con mis amigos y jugar algún partido de tenis de vez en
         cuando.
         </p>
+        
+        </div>
       </div>
       )
 

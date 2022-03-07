@@ -13,7 +13,7 @@ class Imagen extends Component {
   }
   render() {
     return (
-      <div>
+      <div id="ImagenR" className="imagenR">
           <h2>Cambiar entre dos imagenes generadas de manera aleatoria</h2>
         <div className="col-md-6  mb-2">
           <div
@@ -35,7 +35,7 @@ class Imagen extends Component {
             <button
               type="button"
               id="btn-flex"
-              className="btn btn-unique btn-sm"
+              className="btn btn-success btn-sm"
               onClick={() => this.handleChange(true)}
             >
               Imagen 2
@@ -49,7 +49,6 @@ class Imagen extends Component {
             <div /* Este es el div que tiene la segunda imagen */ className="red2" ><LoremPicsum id={5} width={800} height={450} /> </div>
           )}
         </span>
-
 
       </div>
     );
