@@ -3,13 +3,49 @@
   text-align: center;
 }
 
+#nav2{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 10px;
+  padding-left: 15px;
+}
+#Estudios{
+  margin: 30px;
+}
+
 .Pokedex{
+  padding: 10px;
   margin-left: 200px;
   width: 70%;
-  background-image: url("./img/fondopokedex.jpg") ;
+  background-color: rgb(204, 196, 196);
   color: black;
   font-size: large;
   
+}
+
+.VideoJ{
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.pasado{
+  color: greenyellow;
+}
+
+.barra{
+ display: block;
+}
+.tarjetas{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  margin: 10px;
 }
 
 .Proyectos{
@@ -34,18 +70,18 @@ a{
   align-self: center;
   text-align: center;
   align-items: center;
-  background-color: rgb(68, 201, 206);
+  background-color: rgb(92, 105, 105);
 }
 .Sobre{
-  padding: 5px;
   background-color: rgb(204, 196, 196);
-  height: 130px;
-  border-radius: 50px;
-  margin: 20px;
-  
+  height: 100vh;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  align-content: center;
-  justify-content: space-between;  
+  align-content: space-around;
   box-shadow: -5px 5px rgba(0, 124, 146, 0.5);
 }
 .imagenR{
@@ -64,32 +100,3 @@ a{
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #666769;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

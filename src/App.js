@@ -9,6 +9,7 @@ import Pokedex from './pokedex.js';
 import CV from './CV.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CRUD from './CRUD.js';
 
 const App = ()=> (
 <div className='Porfolio'>
@@ -16,8 +17,7 @@ const App = ()=> (
   <Prueba /> 
   <Estudios />
   <Proyecto />
-  <Pokedex />
-  <Imagen />
+  <CRUD />
   <CV />
   <Footer />
 </div>  

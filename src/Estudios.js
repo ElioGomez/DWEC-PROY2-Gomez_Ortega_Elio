@@ -9,7 +9,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
     const Estudios = ()=>(   
         <div id='Estudios'>
         <h2>Estudios</h2>
-        <Timeline position="alternate">
+        <Timeline position='alternate' className='barra'>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot />

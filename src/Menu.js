@@ -1,7 +1,7 @@
 import React from 'react';
 
     const Menu = ()=>(  
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav2">
 
   <a class="navbar-brand" href="#">Portfolio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@ import React from 'react';
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#Pokedex">Pokedex</a>
+        <a class="nav-link" href="#CRUD">CRUD</a>
       </li>
 
       <li class="nav-item">

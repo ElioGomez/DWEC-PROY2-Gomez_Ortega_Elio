@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-    const Prueba = ()=>(     
+    const Sobre = ()=>(     
       <div id='SM' >
+
+<div className='Sobre'>      
       <h1>
           Elio José Gómez Ortega
       </h1>
-<div className='Sobre'>
       <h2>
           Sobre mi
       </h2>
@@ -24,4 +25,4 @@ import './App.css';
       </div>
       )
 
-export default  Prueba 
+export default  Sobre 
