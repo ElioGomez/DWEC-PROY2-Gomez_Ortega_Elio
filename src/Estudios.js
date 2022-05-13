@@ -7,7 +7,9 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
     const Estudios = ()=>(   
+        
         <div id='Estudios'>
+          <div className='EspEst'></div>
         <h2>Estudios</h2>
         <Timeline position='alternate' className='barra'>
       <TimelineItem>

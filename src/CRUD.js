@@ -107,7 +107,7 @@ class CRUD extends Component {
 
   render() {
     return (
-      <div className='VideoJ' id='CRUD'>
+      <div className='VideoJu' id='CRUD'>
         <h2>CRUD de videojuegos pendientes</h2>
         {this.InputEditar()}
         <form onSubmit={this.onCrearHandle.bind(this)}>

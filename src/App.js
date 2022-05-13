@@ -1,5 +1,5 @@
 import react from 'react';
-import Prueba from './Prueba.js'
+import Sobre from './Sobre.js'
 import Estudios from './Estudios.js';
 import Menu from './Menu.js';
 import Footer from './Footer.js';
@@ -14,11 +14,10 @@ import CRUD from './CRUD.js';
 const App = ()=> (
 <div className='Porfolio'>
   <Menu />
-  <Prueba /> 
+  <Sobre /> 
   <Estudios />
   <Proyecto />
   <CRUD />
-  <CV />
   <Footer />
 </div>  
 )
