@@ -63,7 +63,7 @@ const Wordle = () => {
 
   }
   return (
-    <div className='wd'>
+    <div className='wd'id='wd'>
       <h2>Wordle (5 letras)</h2>
       <input type="text" name="InputCrear" onBlur={agregarCorrecion} />
       <div>

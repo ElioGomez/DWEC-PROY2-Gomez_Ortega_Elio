@@ -25,7 +25,7 @@ import React from 'react';
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#ImagenR">Imagenes Random</a>
+        <a class="nav-link" href="#wd">Wordle</a>
       </li>
 
       
