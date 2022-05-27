@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DWEC-PROY2-Gomez_Ortega_Elio/static/css/main.abb760e8.css",
-    "main.js": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.92c4b71a.js",
+    "main.css": "/DWEC-PROY2-Gomez_Ortega_Elio/static/css/main.f65260bd.css",
+    "main.js": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.5a5016c0.js",
     "static/js/787.1ed0c42c.chunk.js": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NRA.PNG": "/DWEC-PROY2-Gomez_Ortega_Elio/static/media/NRA.20cfab312812443ef7aa.PNG",
-    "static/media/fondopokedex.jpg": "/DWEC-PROY2-Gomez_Ortega_Elio/static/media/fondopokedex.e56f2ab43ee579c2012e.jpg",
+    "static/media/CRUD_V.jpeg": "/DWEC-PROY2-Gomez_Ortega_Elio/static/media/CRUD_V.6097afb8186a1169c5c6.jpeg",
     "index.html": "/DWEC-PROY2-Gomez_Ortega_Elio/index.html",
-    "main.abb760e8.css.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/css/main.abb760e8.css.map",
-    "main.92c4b71a.js.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.92c4b71a.js.map",
+    "main.f65260bd.css.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/css/main.f65260bd.css.map",
+    "main.5a5016c0.js.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.5a5016c0.js.map",
     "787.1ed0c42c.chunk.js.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abb760e8.css",
-    "static/js/main.92c4b71a.js"
+    "static/css/main.f65260bd.css",
+    "static/js/main.5a5016c0.js"
   ]
 }
