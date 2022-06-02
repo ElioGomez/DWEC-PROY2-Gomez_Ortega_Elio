@@ -29,7 +29,7 @@ import './App.css';
         </Typography>
       </CardContent>
       <CardActions>
-        <Button href='https://eliogomez.github.io/DWEC-PROY1-Gomez_Ortega_Elio/index.html' size="small">Ver mas</Button>
+      <Button href='https://eliogomez.github.io/DWEC-PROY1-Gomez_Ortega_Elio/index.html' size="small" target="_blank">Ver mas</Button>
       </CardActions>
     </Card>
 
@@ -49,7 +49,7 @@ import './App.css';
         </Typography>
       </CardContent>
       <CardActions>
-        <Button href='https://github.com/ElioGomez/CRUD_Simple' size="small">Ver mas</Button>
+        <Button href='https://github.com/ElioGomez/CRUD_Simple' size="small" target="_blank">Ver mas</Button>
       </CardActions>
     </Card>
     </div>

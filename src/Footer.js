@@ -42,8 +42,8 @@ import React from 'react';
                     <div class="col-md-4">
                         <h4 class="text-uppercase mb-4">Contacto</h4>
                         <p class="lead mb-0">Si quieres contactar conmigo no dudes en escribirme acualquiera de mis redes sociales
-                            (<a href="https://twitter.com/">Twitter</a>)
-                            (<a href="https://www.instagram.com/">Instagram</a>)</p>
+                            (<a href="https://twitter.com/" target="_blank">Twitter</a>)
+                            (<a href="https://www.instagram.com/" target="_blank">Instagram</a>)</p>
                     </div>
                 </div>
             </div>

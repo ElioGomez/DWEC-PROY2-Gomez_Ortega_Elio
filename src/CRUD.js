@@ -98,22 +98,24 @@ class CRUD extends Component {
 
   InputEditar() {
     if (this.state.editar) {
-      return <form onSubmit={this.onActualizarHandle.bind(this)}>
+      return <div> <h2>🔻Actualizar🔻</h2> <form onSubmit={this.onActualizarHandle.bind(this)}>
         <input type="text" name="ActualizarJuego" defaultValue={this.state.titulo} />
         <button>Cambiar Juego</button>
-      </form>
+      </form></div>
     }
   }
+
+
 
   render() {
     return (
       <div className='VideoJu' id='CRUD'>
         <h2>CRUD de videojuegos pendientes</h2>
-        {this.InputEditar()}
         <form onSubmit={this.onCrearHandle.bind(this)}>
           <input type="text" name="InputCrear"/>
           <button>¿Otro juego mas?</button>
-        </form>
+        </form> 
+        {this.InputEditar()}    
         <ul className='VideoJ'>
           {this.state.Juegos.map(juego => (
             <li key={juego.id} className={ juego.pasado ? 'pasado' : 'pendiente' }>

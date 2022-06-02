@@ -11,8 +11,9 @@
   padding-left: 15px;
 }
 #Estudios{
-  margin: 30px;
+  padding-top: 120px;
   height: 100vh;
+  color: rgb(228, 223, 212);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -20,7 +21,7 @@
 }
 
 .Pokedex{
-  padding: 10px;
+  padding-top: 200px;
   margin-left: 200px;
   width: 70%;
   background-color: rgb(204, 196, 196);
@@ -80,6 +81,7 @@ a{
 .VideoJu{
   padding-top: 190px;
   height: 100vh;
+  color: rgb(228, 223, 212);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -95,7 +97,7 @@ a{
 }
 
 .wd{
-  padding-top: 200px;
+  padding-top: 100px;
   background-color: rgb(204, 196, 196);
   color: black;
   font-size: large;
