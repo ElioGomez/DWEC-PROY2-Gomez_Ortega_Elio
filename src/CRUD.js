@@ -98,7 +98,7 @@ class CRUD extends Component {
 
   InputEditar() {
     if (this.state.editar) {
-      return <div> <h2>🔻Actualizar🔻</h2> <form onSubmit={this.onActualizarHandle.bind(this)}>
+      return <div> <h2>Actualizar</h2> <form onSubmit={this.onActualizarHandle.bind(this)}>
         <input type="text" name="ActualizarJuego" defaultValue={this.state.titulo} />
         <button>Cambiar Juego</button>
       </form></div>

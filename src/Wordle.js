@@ -11,19 +11,20 @@ const palabras = ["avion", "cielo", "pocas", "cairo", "oveja"];
 let NRandom = (Math.ceil(Math.random() * palabras.length - 1))
 let palabra = palabras[NRandom]
 console.log(palabra)
-let juego= true
- let intentos = 6
+let juego = true
+let intentos = 7
 //definimos la función principal Wordle
 
 const Wordle = () => {
   //Definimos la variable correción  y su correspondiete setCorrecion, ademas de la llamada a useState que nos permite
   //desclarar una variable de estado y trabajar con ella durante todo el codigo
   const [correcion, setCorrecion] = useState([])
+  const [isDisabled, setIsDisabled] = useState(false);
 
   //En esta función añadimos a una cadena de texto y le vamos añadiendo las comprovaciones que hacemos mas adelante
   const agregarCorrecion = event => {
 
-    if (event.key === 'Enter' && intentos>0 && juego) {
+    if (event.key === 'Enter' && juego == true) {
       let i = 0
       event.preventDefault()
       //Definimos la palabra dada por el usuario como palabraU
@@ -56,7 +57,8 @@ const Wordle = () => {
               text: "La palabra " + palabraU + " era la palabra correcta",
               icon: "success"
             })
-            juego=false
+            juego = false
+            setIsDisabled(!isDisabled)
           } else {
             //Cuando la palabra no es correcta aquí imprimimos por pantalla las correciones
             event.target.value = ""
@@ -64,31 +66,42 @@ const Wordle = () => {
               ...correcion,
               cadena
             ])
-           
+
           }
           i++
-      
+
         } else {
           swal({
             title: "ERROR",
             text: "La palabra " + palabraU + " tiene menos de 5 letras",
             icon: "error"
           })
-          i = 5    
-          
+          i = 5
+          intentos++
+
           event.target.value = ""
         }
       }
-      intentos = intentos-1
-    }
-    if(intentos==0){
+      intentos = intentos - 1
+        if (intentos <= 0) {
       swal({
         title: "SUERTE LA PROXIMA",
         text: "No te quedan mas intentos",
         icon: "error"
       })
+      setCorrecion([
+        ...correcion,
+        "No te quedan intentos"
+      ])
+      juego = false
+      setIsDisabled(!isDisabled)
     }
+    }
+ 
   }
+
+
+   
 
   return (
     <div className='wd' id='wd'>
@@ -104,7 +117,7 @@ const Wordle = () => {
           <li>-No esta: 📓</li>
         </ol>
       </p>
-      <input type="text" name="InputCrear" className='InputCrear' id='InputCrear' maxLength={5} onKeyPress={agregarCorrecion} />
+      <input type="text" name="InputCrear" className='InputCrear' id='InputCrear' disabled={isDisabled} maxLength={5} onKeyPress={agregarCorrecion} />
       <div>
         {correcion.map(item => <div>{item}</div>)}
       </div>
