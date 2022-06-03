@@ -15,6 +15,8 @@ let juego = true
 let intentos = 7
 //definimos la función principal Wordle
 
+
+
 const Wordle = () => {
   //Definimos la variable correción  y su correspondiete setCorrecion, ademas de la llamada a useState que nos permite
   //desclarar una variable de estado y trabajar con ella durante todo el codigo
@@ -101,6 +103,9 @@ const Wordle = () => {
   }
 
 
+  const Reiniciar = () =>{
+    window.location.reload(false);
+  }
    
 
   return (
@@ -119,6 +124,7 @@ const Wordle = () => {
       </p>
       <input type="text" name="InputCrear" className='InputCrear' id='InputCrear' disabled={isDisabled} maxLength={5} onKeyPress={agregarCorrecion} />
       <div>
+        <button onClick={Reiniciar} disabled={false}>Reiniciar</button>
         {correcion.map(item => <div>{item}</div>)}
       </div>
     </div>
