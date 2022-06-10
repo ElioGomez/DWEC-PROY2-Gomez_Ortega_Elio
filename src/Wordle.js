@@ -1,6 +1,7 @@
 import React, {
   Component,
-  useState
+  useState,
+  useRef
 } from 'react';
 import { render }
   from 'react-dom';
@@ -10,6 +11,7 @@ import swal from 'sweetalert';
 const palabras = ["avion", "cielo", "pocas", "cairo", "oveja"];
 let NRandom = (Math.ceil(Math.random() * palabras.length - 1))
 let palabra = palabras[NRandom]
+let listaC= React.createRef()
 console.log(palabra)
 let juego = true
 let intentos = 7
@@ -85,28 +87,38 @@ const Wordle = () => {
         }
       }
       intentos = intentos - 1
-        if (intentos <= 0) {
-      swal({
-        title: "SUERTE LA PROXIMA",
-        text: "No te quedan mas intentos",
-        icon: "error"
-      })
-      setCorrecion([
-        ...correcion,
-        "No te quedan intentos"
-      ])
-      juego = false
-      setIsDisabled(!isDisabled)
+      if (intentos <= 0) {
+        swal({
+          title: "SUERTE LA PROXIMA",
+          text: "No te quedan mas intentos",
+          icon: "error"
+        })
+        setCorrecion([
+          ...correcion,
+          "No te quedan intentos"
+        ])
+        juego = false
+        setIsDisabled(!isDisabled)
+      }
     }
-    }
- 
+
   }
 
 
-  const Reiniciar = () =>{
-    window.location.reload(false);
+  const Reiniciar = () => {
+    console.log("function")
+    NRandom = (Math.ceil(Math.random() * palabras.length - 1))
+    palabra = palabras[NRandom]
+    console.log(palabra)
+    juego = true
+    console.log(juego)
+    intentos = 7
+    console.log(intentos)
+    setIsDisabled(false)
+    console.log(listaC)
+    listaC.__reactProps$tf1irwnc4kc= null
   }
-   
+
 
   return (
     <div className='wd' id='wd'>
@@ -125,7 +137,7 @@ const Wordle = () => {
       <input type="text" name="InputCrear" className='InputCrear' id='InputCrear' disabled={isDisabled} maxLength={5} onKeyPress={agregarCorrecion} />
       <div>
         <button onClick={Reiniciar} disabled={false}>Reiniciar</button>
-        {correcion.map(item => <div>{item}</div>)}
+        {correcion.map(item => <div ref={listaC}>{item}</div>)}
       </div>
     </div>
   )
