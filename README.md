@@ -1,4 +1,4 @@
-## Documentación Wordle
+## Documentación Proyecto 2 Portfolio
 
 ### Instalacion e inicialización:
 
