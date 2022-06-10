@@ -1,5 +1,10 @@
 ## Documentación Proyecto 2 Portfolio
 
+### Enlaces:
+
+- GitHub Repositorio: https://github.com/ElioGomez/DWEC-PROY2-Gomez_Ortega_Elio
+- GitHub Pages: https://eliogomez.github.io/DWEC-PROY2-Gomez_Ortega_Elio/
+
 ### Instalacion e inicialización:
 
 - Para poder ejecutar el proyecto solo es necesario usar el comando npm install. Las librerias necesarias se instalaran automaticamente
