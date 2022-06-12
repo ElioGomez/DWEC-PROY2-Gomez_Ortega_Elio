@@ -11,7 +11,7 @@ import swal from 'sweetalert';
 const palabras = ["avion", "cielo", "pocas", "cairo", "oveja"];
 let NRandom = (Math.ceil(Math.random() * palabras.length - 1))
 let palabra = palabras[NRandom]
-let listaC= React.createRef()
+let listaC = React.createRef()
 console.log(palabra)
 let juego = true
 let intentos = 7
@@ -115,8 +115,13 @@ const Wordle = () => {
     intentos = 7
     console.log(intentos)
     setIsDisabled(false)
-    console.log(listaC)
-    listaC.__reactProps$tf1irwnc4kc= null
+    setCorrecion([
+      []
+    ])
+    swal({
+      text: "Nueva paritda iniciada"
+    })
+
   }
 
 

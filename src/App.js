@@ -9,16 +9,16 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CRUD from './CRUD.js';
 
-const App = ()=> (
-<div className='Porfolio'>
-  <Menu />
-  <Sobre /> 
-  <Estudios />
-  <Proyecto />
-  <CRUD />
-  <Wordle />
-  <Footer />
-</div>  
+const App = () => (
+  <div className='Porfolio'>
+    <Menu />
+    <Sobre />
+    <Estudios />
+    <Proyecto />
+    <CRUD />
+    <Wordle />
+    <Footer />
+  </div>
 )
 
 export default App;

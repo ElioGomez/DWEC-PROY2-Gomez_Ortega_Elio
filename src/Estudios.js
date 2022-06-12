@@ -6,12 +6,12 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
-    const Estudios = ()=>(   
-        
-        <div id='Estudios'>
-          <div className='EspEst'></div>
-        <h2>Estudios</h2>
-        <Timeline position='alternate' className='barra'>
+const Estudios = () => (
+
+  <div id='Estudios'>
+    <div className='EspEst'></div>
+    <h2>Estudios</h2>
+    <Timeline position='alternate' className='barra'>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot />
@@ -40,7 +40,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
         <TimelineContent>Curso básico primeros auxilios</TimelineContent>
       </TimelineItem>
     </Timeline>
-      </div>  
-      )
+  </div>
+)
 
-export default  Estudios
+export default Estudios

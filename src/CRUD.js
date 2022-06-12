@@ -112,13 +112,13 @@ class CRUD extends Component {
       <div className='VideoJu' id='CRUD'>
         <h2>CRUD de videojuegos pendientes</h2>
         <form onSubmit={this.onCrearHandle.bind(this)}>
-          <input type="text" name="InputCrear"/>
+          <input type="text" name="InputCrear" />
           <button>¿Otro juego mas?</button>
-        </form> 
-        {this.InputEditar()}    
+        </form>
+        {this.InputEditar()}
         <ul className='VideoJ'>
           {this.state.Juegos.map(juego => (
-            <li key={juego.id} className={ juego.pasado ? 'pasado' : 'pendiente' }>
+            <li key={juego.id} className={juego.pasado ? 'pasado' : 'pendiente'}>
               {juego.titulo}
               <button className='VideoJ' onClick={this.onEliminarHandle.bind(this, juego.id)}>Eliminar</button>
               <button className='VideoJ' onClick={this.onEditarHandle.bind(this, juego.id, juego.titulo)}>Editar</button>
