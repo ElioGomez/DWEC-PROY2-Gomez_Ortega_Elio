@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/DWEC-PROY2-Gomez_Ortega_Elio/static/css/main.c75ca825.css",
-    "main.js": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.1e847ddc.js",
-    "static/js/787.1ed0c42c.chunk.js": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/787.1ed0c42c.chunk.js",
+    "main.js": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.ec83b915.js",
     "static/media/NRA.PNG": "/DWEC-PROY2-Gomez_Ortega_Elio/static/media/NRA.20cfab312812443ef7aa.PNG",
     "static/media/CRUD_V.jpeg": "/DWEC-PROY2-Gomez_Ortega_Elio/static/media/CRUD_V.6097afb8186a1169c5c6.jpeg",
     "index.html": "/DWEC-PROY2-Gomez_Ortega_Elio/index.html",
     "main.c75ca825.css.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/css/main.c75ca825.css.map",
-    "main.1e847ddc.js.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.1e847ddc.js.map",
-    "787.1ed0c42c.chunk.js.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.ec83b915.js.map": "/DWEC-PROY2-Gomez_Ortega_Elio/static/js/main.ec83b915.js.map"
   },
   "entrypoints": [
     "static/css/main.c75ca825.css",
-    "static/js/main.1e847ddc.js"
+    "static/js/main.ec83b915.js"
   ]
 }
