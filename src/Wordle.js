@@ -12,7 +12,6 @@ const palabras = ["avion", "cielo", "pocas", "cairo", "oveja"];
 let NRandom = (Math.ceil(Math.random() * palabras.length - 1))
 let palabra = palabras[NRandom]
 let listaC = React.createRef()
-console.log(palabra)
 let juego = true
 let intentos = 7
 //definimos la función principal Wordle
@@ -106,14 +105,10 @@ const Wordle = () => {
 
 
   const Reiniciar = () => {
-    console.log("function")
     NRandom = (Math.ceil(Math.random() * palabras.length - 1))
     palabra = palabras[NRandom]
-    console.log(palabra)
     juego = true
-    console.log(juego)
     intentos = 7
-    console.log(intentos)
     setIsDisabled(false)
     setCorrecion([
       []
